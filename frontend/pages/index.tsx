@@ -67,7 +67,7 @@ export default function Home() {
   }
 
   return (
-    <main className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}>
+    <main className={`flex min-h-screen flex-col items-center justify-center p-24 ${inter.className}`}>
       <div className='flex flex-col justify-center items-center text-center space-y-4 max-w-2xl'>
         <Image src="/images/DadJokeCentral.jpg" width={100} height={100} alt="Just A Man" className='w-[150px]'/>
         { isLoading ? <p>Hang on...</p> 
